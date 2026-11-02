@@ -1,0 +1,5 @@
+The OpenAI API runner from the starter project requires a funded API account.
+If your API account has no credits, it will return 429. The illustrative CSV files
+in results/ provide sample output format only; they are not a substitute for a real run.
+Use a local LLM runner such as Ollama to produce genuine Task 1/2 predictions without
+OpenAI API credits, or restore API billing and run the original run_experiment.py.

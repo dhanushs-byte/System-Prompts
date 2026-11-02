@@ -1,0 +1,61 @@
+version,ticket_id,ticket,true_category,true_priority,predicted_category,predicted_priority,correct,status
+v1_full_zero_shot,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T03,How can I change the email address associated with my account?,Account,Low,Account,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v1_full_zero_shot,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,High,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T03,How can I change the email address associated with my account?,Account,Low,Billing,Low,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,High,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,High,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,Medium,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v2_no_output_format,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T03,How can I change the email address associated with my account?,Account,Low,Account,High,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,Low,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+v3_no_constraints,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T03,How can I change the email address associated with my account?,Account,Low,Account,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_2_examples,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,High,False,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T03,How can I change the email address associated with my account?,Account,Low,Account,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_3_examples,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High,Technical Issue,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T03,How can I change the email address associated with my account?,Account,Low,Account,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium,Shipping,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High,Billing,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High,Account,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium,Technical Issue,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High,Shipping,High,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T09,Can you explain what features are included in the free plan?,General Inquiry,Low,General Inquiry,Low,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run
+few_shot_5_examples,T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium,Billing,Medium,True,ILLUSTRATIVE SAMPLE OUTPUT - not a live model run

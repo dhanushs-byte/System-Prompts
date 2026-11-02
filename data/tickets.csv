@@ -1,0 +1,11 @@
+ticket_id,text,true_category,true_priority
+T01,I was charged twice for my monthly subscription. Please refund the duplicate payment.,Billing,High
+T02,The app crashes every time I tap the upload button. I cannot submit my report.,Technical Issue,High
+T03,How can I change the email address associated with my account?,Account,Low
+T04,"My package has not arrived, and the tracking page has shown 'in transit' for 9 days.",Shipping,Medium
+T05,Please cancel my plan before it renews tomorrow. I do not want another charge.,Billing,High
+T06,"I cannot sign in. The password reset link says it has expired, and I have a deadline today.",Account,High
+T07,"The dashboard is slow to load, but it eventually opens after about a minute.",Technical Issue,Medium
+T08,I received the wrong item. The box contains a phone case instead of the headphones I ordered.,Shipping,High
+T09,Can you explain what features are included in the free plan?,General Inquiry,Low
+T10,I see a pending charge on my card. I am not sure whether it is a duplicate or just an authorization hold.,Billing,Medium

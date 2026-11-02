@@ -1,0 +1,58 @@
+{
+  "2": [
+    [
+      "A duplicate subscription payment needs a refund.",
+      "Billing",
+      "High"
+    ],
+    [
+      "I cannot access my account after a password reset failure.",
+      "Account",
+      "High"
+    ]
+  ],
+  "3": [
+    [
+      "A duplicate subscription payment needs a refund.",
+      "Billing",
+      "High"
+    ],
+    [
+      "I cannot access my account after a password reset failure.",
+      "Account",
+      "High"
+    ],
+    [
+      "Where can I find the list of supported payment methods?",
+      "General Inquiry",
+      "Low"
+    ]
+  ],
+  "5": [
+    [
+      "A duplicate subscription payment needs a refund.",
+      "Billing",
+      "High"
+    ],
+    [
+      "I cannot access my account after a password reset failure.",
+      "Account",
+      "High"
+    ],
+    [
+      "My order is delayed and tracking has not updated for a week.",
+      "Shipping",
+      "Medium"
+    ],
+    [
+      "The mobile app closes whenever I open settings.",
+      "Technical Issue",
+      "High"
+    ],
+    [
+      "I see a pending card authorization and do not know if it is a final charge.",
+      "Billing",
+      "Medium"
+    ]
+  ]
+}

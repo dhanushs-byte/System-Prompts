@@ -1,0 +1,7 @@
+version,correct,accuracy_percent,illustrative_avg_tokens_per_call,status
+v1_full_zero_shot,9/10,90,120,ILLUSTRATIVE - replace with actual API/local model measurements
+v2_no_output_format,6/10,60,105,ILLUSTRATIVE - replace with actual API/local model measurements
+v3_no_constraints,8/10,80,110,ILLUSTRATIVE - replace with actual API/local model measurements
+few_shot_2_examples,9/10,90,180,ILLUSTRATIVE - replace with actual API/local model measurements
+few_shot_3_examples,10/10,100,230,ILLUSTRATIVE - replace with actual API/local model measurements
+few_shot_5_examples,10/10,100,320,ILLUSTRATIVE - replace with actual API/local model measurements

@@ -1,0 +1,11 @@
+ticket_id,top_similar_example,similarity_score_illustrative,status
+T01,Duplicate subscription payment needs a refund,0.91,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T02,The mobile app closes whenever I open settings,0.88,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T03,How do I update the email on my profile,0.86,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T04,My order is delayed and tracking has not changed,0.9,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T05,A duplicate subscription payment needs a refund,0.89,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T06,I cannot access my account after a password reset failure,0.92,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T07,The website is slow but still works,0.87,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T08,My order is delayed and tracking has not changed,0.84,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T09,Where can I find the list of supported payment methods,0.89,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
+T10,I see a pending card authorization and do not know if it is a final charge,0.93,ILLUSTRATIVE - run dynamic_examples.py for actual similarities
